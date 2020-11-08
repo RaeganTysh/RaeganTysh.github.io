@@ -7,8 +7,12 @@
     <!-- screen compatibility-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="-UA-Compatible" content="chrome">
 
     <!-- Libraries-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
@@ -28,66 +32,69 @@
     <style type="text/css">
 
     </style>
-    
+
 
 </head>
 <!--This is the size of the web page everything is contained in here-->
-<div class="jumbotron">
-    <!--Header-Banner-->
-    <div class="container py-2 bg-light" style="background-color: blue">
-        <div class="row justify-content-between" style="text-align: center">
-            <img src="img/GithubBanner.png" alt="Banner" class="img" />
-        </div>
-    </div>
 
-    <!--Header-NavBar-->
-    <div class="container" style="background-color: black;">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-custom" style="background-color: black;">
-            <a class="navbar-brand" href="./index.html">MENU</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span> </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./html/Education.html">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./html/Competencies.html">Competencies</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            Full-Stack Mini-projects
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="./html/Home2.html">Geology E-Portfolio</a>
-                            <a class="dropdown-item" href="./html/M4_LA1_HTML_Form.html">Basic Form</a>
-                            <a class="dropdown-item" href="./html/M4_LA3_StudRegForm.html">Student
-                                Registration Form</a>
-                            <a class="dropdown-item" href="./html/M4_LA2_CashCalc.html">Cash
-                                calculator</a>
-                        
-                        </div>
-                    </li>
-                </ul>
+<body>
+    <div class="jumbotron">
+        <!--Header-Banner-->
+        <div class="container py-2 bg-light" style="background-color: blue">
+            <div class="row justify-content-between" style="text-align: center">
+                <img src="img/GithubBanner.png" alt="Banner" class="img-fluid" />
             </div>
-        </nav>
-    </div>
+        </div>
 
-    <body>
+        <!--Header-NavBar-->
+        <div class="container" style="background-color: black;">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-custom" style="background-color: black;">
+                <a class="navbar-brand" href="./index.html">MENU</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span> </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./html/Education.html">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./html/Competencies.html">Competencies</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Full-Stack Mini-projects
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="./html/Home2.html">Geology E-Portfolio</a>
+                                <a class="dropdown-item" href="./html/M4_LA1_HTML_Form.html">Basic Form</a>
+                                <a class="dropdown-item" href="./html/M4_LA3_StudRegForm.html">Student
+                                    Registration Form</a>
+                                <a class="dropdown-item" href="./html/M4_LA2_CashCalc.html">Cash
+                                    calculator</a>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
         <div class="container content row mx-auto">
             <div class="row justify-content-between">
                 <div class="col-md-4 services-section">
                     <img src="img/Picture2.png" width="400" alt="Profile Image" id="Profimg" />
-                    <br/>
-                    <div class="Proftext">Thanks for visiting my page, I update frequently so please come agian soon!</div>
+                    <br />
+                    <div class="Proftext">Thanks for visiting my page, I update frequently so please come agian soon!
+                    </div>
                 </div>
-                
+
 
                 <div class="col-md-8 content row mx-auto ">
                     <div class="ProfileDesc">
@@ -120,19 +127,24 @@
                 </div>
             </div>
         </div>
-    </body>
 
-    <div class="container" style="background-color: black;">
-        <footer>
-            <p style="font-variant: small-caps;color: white; font-weight:900; font-size: 20px; text-align: right;">
-                Contact &nbsp;&nbsp;&nbsp; <a href="https://www.linkedin.com/in/raegantyshkewichpgeol/"
-                    class="fa fa-linkedin "></a>
-                <a href="https://github.com/RaeganTysh" class="fa fa-github "></a>
-                <a href="mailto: raegan.tysh@gmail.com" class="fa fa-envelope "></a></p>
-        </footer>
+
+        <div class="container" style="background-color: black;">
+            <footer>
+                <p style="font-variant: small-caps;color: white; font-weight:900; font-size: 20px; text-align: right;">
+                    Contact &nbsp;&nbsp;&nbsp; <a href="https://www.linkedin.com/in/raegantyshkewichpgeol/"
+                        class="fa fa-linkedin "></a>
+                    <a href="https://github.com/RaeganTysh" class="fa fa-github "></a>
+                    <a href="mailto: raegan.tysh@gmail.com" class="fa fa-envelope "></a></p>
+            </footer>
+        </div>
+
     </div>
 
-</div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 
 
 </html>
