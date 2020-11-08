@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Registration3</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		#containerstyle {
+			border-style: solid;
+			border-color: black;
+			background-color: #A9A9A9;
+			border-width: 2px;
+			padding-top: 50px;
+			padding-bottom: 50px;
+			min-width: 200px;
+			max-width: 960px;
+			margin: auto;
+		}
+
+		
+
+		.style {
+			border-style: solid;
+			border-color: black;
+			background-color: #A9A9A9;
+			border-width: 2px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			min-width: 200px;
+			max-width: 960px;
+			margin: auto;
+
+
+		}
+
+		button {
+			font-weight: 900;
+			padding: 10px;
+		}
+
+		.boldname {
+			font-weight: 700;
+		}
+
+		hr {
+			border-width: 2px;
+			border-color: lightgray;
+		}
+
+		@media screen and (max-width: 1024px) {
+			body {
+				background-color: lightgray;
+			}
+
+		}
+
+		@media screen and (min-width: 480px) {
+			body {
+				background-color: lightblue;
+			}
+		}
+
+		
+	</style>
+</head>
+<div class="container" style="background-color: black;">
+<nav class="navbar navbar-expand-lg navbar-dark bg-custom" style="background-color: black;">
+	<a class="navbar-brand" href="../index.html">MENU</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+		aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNavDropdown">
+		<ul class="navbar-nav">
+			<li class="nav-item active">
+				<a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span> </a>
+			</li>
+			<!--<li class="nav-item">
+				<a class="nav-link" href="./html/1_Prof.html">Professional Profile</a>
+			</li>-->
+			<li class="nav-item">
+				<a class="nav-link" href="Education.html">Education</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="Competencies.html">Competencies</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+					aria-haspopup="true" aria-expanded="false">
+					Full-Stack Mini-projects
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item" href="Home2.html">Geology E-Portfolio</a>
+					<a class="dropdown-item" href="M4_LA1_HTML_Form.html">Basic Form</a>
+					<a class="dropdown-item" href="M4_LA3_StudRegForm.html">Student
+						Registration Form</a>
+					<a class="dropdown-item" href="M4_LA2_CashCalc.html">Cash
+						calculator</a>
+				</div>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<body>
+	<div class="jumbotron py2-bg-dark">
+		<h1>Student Registration Form</h1>
+		<h4>Fill out the form carefully for registration</h4><br><br>
+		<div class="style" class="container">
+			<img src="../img/uni3.jpg" width="475.7" height="150">
+			<img src="../img/uni3.jpg" width="475.9" height="150" style="float: right">
+		</div>
+		<div id="containerstyle">
+			<div class="container">
+				<h2>Student Information</h2><br> <!-- created using a bootstrap inline form--->
+				<h5>Name</h5>
+				<form class="form-inline" action="/action_page.php">
+					<!-- script to action information-- not used yet-->
+					<input type="text" class="form-control mb-2 mr-sm-2" id="fname" placeholder="First Name"
+						name="fname" size="30">
+					<!-- size attribute only works on text, search, tel url, email, password-->
+					<input type="text" class="form-control mb-2 mr-sm-2" id="mname" placeholder="Middle Name"
+						name="mname" size="30">
+					<input type="text" class="form-control mb-2 mr-sm-2" id="lname" placeholder="Last Name" name="lname"
+						size="30"><br>
+				</form>
+
+			</div>
+			<div class="container">
+				<h5>Birth Date/Gender</h5>
+				<form class="form-inline" action="/action_page.php">
+					<input type="date" class="form-control mb-2 mr-sm-2" id="bday" placeholder="Month: XX" name="bday">
+					<input type="radio" id="male" name="gender" value="male">
+					<label for="male" class="boldname">Male</label><br>
+					<input type="radio" id="female" name="gender" value="female">
+					<label for="female" class="boldname">Female</label><br>
+					<input type="radio" id="other" name="gender" value="other">
+					<label for="other" class="boldname">Other</label>
+				</form>
+			</div>
+			<div class="container">
+				<h5>Address</h5>
+				<form class="form-inline" action="/action_page.php">
+					<!-- script to action information-- not used yet-->
+					<input type="text" class="form-control mb-2 mr-sm-2" id="street" placeholder="Street Address"
+						name="street" size="50">
+					<input type="text" class="form-control mb-2 mr-sm-2" id="street2"
+						placeholder="Street Address Line 2" name="street2" size="50">
+
+					<input type="text" class="form-control mb-2 mr-sm-2" id="city" placeholder="City" name="city"
+						size="30">
+					<input type="text" class="form-control mb-2 mr-sm-2" id="province" placeholder="State / Province"
+						name="province" size="30">
+					<input type="text" class="form-control mb-2 mr-sm-2" id="zip" placeholder="Postal / Zip Code"
+						name="zip" size="30">
+				</form>
+				<hr>
+			</div>
+			<div class="container">
+				<h5>Contact Information</h5>
+				<form class="form-inline" action="/action_page.php">
+					<!-- script to action information-- not used yet-->
+					<input type="text" class="form-control mb-2 mr-sm-2" id="email" placeholder="Email" name="email"
+						size="42">
+					<input type="text" class="form-control mb-2 mr-sm-2" id="phone" placeholder="Phone xxx-xxx-xxxx"
+						name="phone" size="42">
+					<input type="text" class="form-control mb-2 mr-sm-2" id="student" placeholder="Student ID"
+						name="student" size="42">
+					<input type="text" class="form-control mb-2 mr-sm-2" id="username" placeholder="Username"
+						name="username" size="42">
+					<input type="password" class="form-control mb-2 mr-sm-2" id="psd" placeholder="Password"
+						name="remember" size="42">
+					<input type="password" class="form-control mb-2 mr-sm-2" id="psd" placeholder="Confirm Password"
+						name="remember" size="42">
+					<label class="form-check-label"><input type="checkbox" name="remember" checked="checked">Remember
+						me</label><br>
+					<hr>
+				</form>
+				<hr>
+			</div>
+			<div class="container">
+				<h5>Course Selction</h5>
+				<form class="form-inline" action="/action_page.php">
+					<!-- script to action information-- not used yet-->
+					<input type="text" class="form-control mb-2 mr-sm-2" id="degree" placeholder="Degree Type"
+						name="degree" size="29">
+					<input type="text" class="form-control mb-2 mr-sm-2" id="year" placeholder="Year- XXXX" name="year"
+						size="29">
+					<input type="radio" id="semester" name="semester" value="Fall">
+					<label for="semester" class="boldname">Fall</label><br>
+					<input type="radio" id="semester" name="semester" value="Winter">
+					<label for="semester" class="boldname">Winter</label><br>
+					<input type="radio" id="semester" name="semester" value="Spring">
+					<label for="semester" class="boldname">Spring</label>
+					<input type="radio" id="semester" name="semester" value="Summer">
+					<label for="semester" class="boldname">Summer</label>
+					<input type="text" class="form-control mb-2 mr-sm-2" id="Course" placeholder="Course Code"
+						name="Course" size="29">
+					<input type="text" class="form-control mb-2 mr-sm-2" id="Course" placeholder="Course Code"
+						name="Course" size="29">
+					<input type="text" class="form-control mb-2 mr-sm-2" id="Course" placeholder="Course Code"
+						name="Course" size="29">
+					<input type="text" class="form-control mb-2 mr-sm-2" id="Course" placeholder="Course Code"
+						name="Course" size="29">
+					<input type="text" class="form-control mb-2 mr-sm-2" id="Course" placeholder="Course Code"
+						name="Course" size="29">
+					<input type="text" class="form-control mb-2 mr-sm-2" id="Course" placeholder="Course Code"
+						name="Course" size="29">
+
+				</form><br>
+				<div class="inline=block">
+					<button type="submit">Submit</button>
+					<button type="button" class="cancelbtn">Cancel</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</div>
+
+</html>

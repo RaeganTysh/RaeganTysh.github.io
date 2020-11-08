@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>LA1 HTML Form2</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		.wrapper {
+			margin: auto;
+			background-color: rgb(106, 90, 205);
+			border-color: black 5px;
+			min-width: 200px;
+			max-width: 960px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+
+		img {
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+		}
+
+		input[type=text],
+		input[type=password],
+		input[type=email],
+		input[type=password] {
+			width: 40%;
+			text-align: center;
+			margin: 0 auto;
+			display: block;
+			line-height: 30px;
+		}
+
+		
+		.radiodiv {
+			/*display: inline-flex;*/
+			border: solid 2px white;
+
+
+		}
+
+
+		label {
+			justify-content: center;
+			font-weight: 900;
+			font-size: 20px;
+			text-align: center;
+			display: flex;
+			margin-top: 20px;
+			margin-bottom: 0;
+			line-height: 10px;
+
+		}
+
+		button {
+			background-color: blue;
+			padding: 20px;
+			margin: 0;
+			position: relative;
+		}
+
+		h1 {
+			font-weight: 900;
+			text-align: center;
+		}
+	</style>
+</head>
+<div class="container" style="background-color: black;">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-custom" style="background-color: black;">
+		<a class="navbar-brand" href="../index.html">MENU</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+			aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span> </a>
+				</li>
+				<!--<li class="nav-item">
+					<a class="nav-link" href="./html/1_Prof.html">Professional Profile</a>
+				</li>-->
+				<li class="nav-item">
+					<a class="nav-link" href="Education.html">Education</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Competencies.html">Competencies</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false">
+						Full-Stack Mini-projects
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="Home2.html">Geology E-Portfolio</a>
+						<a class="dropdown-item" href="M4_LA1_HTML_Form.html">Basic Form</a>
+						<a class="dropdown-item" href="M4_LA3_StudRegForm.html">Student
+							Registration Form</a>
+						<a class="dropdown-item" href="M4_LA2_CashCalc.html">Cash
+							calculator</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<body>
+		<div class="jumbotron py-2 bg-dark">
+			<h1 style="color:white;">Registration Form</h1>
+			<div class="wrapper">
+				<div>
+					<img src="../img/buswom.png" alt="Add Profile Picture" class="rounded-circle">
+				</div>
+				<!-- stacked form- need to add line break-->
+				<div class="form-group">
+					<label>First Name</label><br> <!-- form element required-->
+					<input type="text" id="fname" name="fname" placeholder="Ex. Jane">
+					<br>
+					<!-- type-input-text input field-radio for options- submit to submit form-->
+				</div>
+				<div class="form-group">
+					<label> Last Name</label><br>
+					<input type="text" id="lname" name="lastname" placeholder="Ex. Doe"><br>
+				</div>
+				<div class="form-group">
+					<label> Email</label><br>
+					<input type="email" id="email" name="email" placeholder="Jane.Doe@hotmail.com"><br>
+				</div>
+				<div class="form-group">
+					<label> Username</label><br>
+					<input type="password" id="psd" name="remember" placeholder="Username"><br>
+				</div>
+				<div class="form-group">
+					<label> Password</label><br>
+					<input type="password" id="psd" name="remember" placeholder="Password"><br>
+				</div>
+				<div class="form-group">
+					<label>Confirm Password</label><br>
+					<input type="password" id="psd" name="remember" placeholder="Confirm Password"><br>
+				</div>
+				<div class="form-group form-check">
+					<p style="text-align: center">Do you agree to the terms and conditons
+					<p>
+						<label><input type="checkbox" name="remember" checked="checked" />Agree</label>
+						<label><input type="checkbox" name="remember" checked="checked" />Remember me</label>
+				</div>
+				<div style="text-align: center">
+					<button type="submit">Submit</button>
+					<button type="button" class="cancelbtn">Cancel</button>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</div>
+
+
+</html>

@@ -1,0 +1,194 @@
+
+#Profimg {
+    background-color: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+}
+
+.Proftext {
+    font-family: 'Tangerine', serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 900;
+    margin: 0px;
+    text-shadow: 4px 4px 4px gray;
+    
+}
+
+.ProfileDesc {
+    background-color:none; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    
+
+        
+}
+
+
+
+p {
+    font-family: Brush Script MT;
+    font-size: 20px;
+}
+
+li {
+    font-family: Brush Script MT;
+    font-size: 20px;
+
+}
+
+
+
+
+.EduDesc {
+    background-color: none; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    
+    /*margin-left: 80px;
+    margin-right: 0px;*/
+
+}
+
+#Eduimg {
+    background-color:none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+/* Navigation bar */
+
+h1 {
+    padding-left: 5%;
+    font-size: 60px;
+    font-weight: 600;
+    /*font-family: Brush Script MT, Brush Script Std, cursive;*/
+    font-family: 'Tenor Sans', sans-serif;
+    
+}
+
+h2 {
+    
+    font-family: Brush Script MT;
+    color: black;
+    margin-top: 5px;
+    line-height: 20px;
+}
+
+h3 {
+    
+    font-family: Brush Script MT;
+    color:  #a129ec;
+    line-height: 30px;
+
+}
+
+h6 {
+    font-family: Brush Script MT;
+    color:#4c4c4c;
+    line-height: 10px;
+    text-transform: uppercase;
+
+}
+
+.CompTitle {
+
+    background-color: none;
+    border-style: solid;
+    border-color: #a129ec;
+    border-width: 10px;
+    font-family: Brush Script MT;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+.CompSub {
+    
+    background-color:none;
+    border-style: solid;
+    border-color: gray;
+    border-width: 6px;
+    font-family: Brush Script MT;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+
+}
+    
+    
+
+.active {
+    font-weight: bolder;
+    
+}
+
+.header {
+    background-image: url(../img/banner.jpg);
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg-custom {
+    background-color: black;
+}
+
+/* Content */
+
+.legend {
+    text-align: center;
+    font-size: smaller;
+    font-weight: bolder;
+    font-style: italic;
+    color: grey;
+}
+
+/* footer */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: right;
+  }
+
+  .fa {
+    padding: 11px 2px 11px 2px;
+    border-radius: 50%;
+    font-size: 19px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: white;
+    color: black;
+  }
+  
+  .fa-github {
+    background: white;
+    color: black;
+  }
+
+.fa-envelope {
+    background: white;
+    color: black;
+
+}
