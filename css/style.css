@@ -7,7 +7,7 @@
 }*/
 
 .img-fluid {
-    max-width:100%;
+    max-width:auto;
     height: auto;
     margin-top: 25px;
     margin-bottom: 25px;
