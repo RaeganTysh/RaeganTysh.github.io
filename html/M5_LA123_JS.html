@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<!-- Libraries-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+
+	<link rel="stylesheet" type="text/css" href="../css/Mod5.css">
+	<title>Module 5 LA</title>
+	<style type="text/css">
+
+	</style>
+	<script type="text/javascript" src="../js/Module 5 Learning Activities.js"></script>
+
+</head>
+
+<body>
+	<div class="container" style="background-color: black;">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-custom" style="background-color: black;">
+			<a class="navbar-brand" href="../index.html">MENU</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+				aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span> </a>
+					</li>
+					<!--<li class="nav-item">
+						<a class="nav-link" href="./html/1_Prof.html">Professional Profile</a>
+					</li>-->
+					<li class="nav-item">
+						<a class="nav-link" href="Education.html">Education</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Competencies.html">Competencies</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">
+							Full-Stack Mini-projects
+						</a>
+						<div class="dropdown-menu"  aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="index.html">Geology E-Portfolio</a>
+							<a class="dropdown-item" href="M4_LA1_HTML_Form.html">Basic Form</a>
+							<a class="dropdown-item" href="M4_LA3_StudRegForm.html">Student
+								Registration Form</a>
+							<a class="dropdown-item" href="M4_LA2_CashCalc.html">Cash
+								calculator</a>
+							<a class="dropdown-item" href="M5_LA123_JS.html">JavaScript Basics</a>
+
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	
+	<section>
+		<h1 style="color: red">Welcome to Module 5 Learning Activity </h1>
+		<h2>JS LA 2 Basic Program- Part I</h2>
+		<div>
+			<p style="color: blue ">Q1- Go to console log! to see "Hello World"</p>
+			<p>Q2- Add a comment and a variable</p>
+			<!-- <p id="Q2">Test</p>
+	<script type="text/javascript">
+		document.getElementById("Q2").innerHTML ="Hello World";
+	</script> -->
+			<p id="Q3"></p>
+			<script>var comment = "Q2: Welcome to JS Basics";
+				var b = 2020;
+				document.getElementById("Q3").innerHTML = comment + " " + b; //why does it need it's own script tag
+			</script>
+			<p id="Q4"></p>
+			<script>var message = "Q3: Hello my Name is Raegan Tyshkewich";
+				document.getElementById("Q4").innerHTML = message; //why does it need it's own script tag
+			</script>
+		</div>
+		<div>
+			<p>Q4-Input two numbers to find the smallest</p>
+			<label for="text">Enter variable x:</label>
+			<input type="text" id="NA">
+			<label for="text">Enter variable y:</label>
+			<input type="text" id="NB">
+			<button onclick="smallest();">Display Smallest</button>
+			<p id="small"></p>
+		</div>
+		<p></p>
+
+		<div>
+			<p>Q5 - Input 3 Numbers- too find the largest/smallest</p>
+			<label for="text">Enter Number 1:</label>
+			<input type="text" id="N1">
+			<label for="text">Enter Number 2:</label>
+			<input type="text" id="N2">
+			<label for="text">Enter Number 3:</label>
+			<input type="text" id="N3">
+			<button onclick="findSmallLarge();">Find smallest/largest</button>
+			<p id="find"></p>
+		</div>
+
+		<div>
+			<p>Q6 - Display all the numbers from 1-10 (for loop)</p>
+			<script type="text/javascript">
+				for (var y = 1; y <= 10; y++) {
+					document.write(" " + y)
+				}
+			</script>
+
+		</div>
+		<div>
+			<p>Q7 - Display all the even numbers from 1-10 (for loop)</p>
+			<script type="text/javascript">
+				for (var z = 2; z <= 10; z++) {
+					if (z % 2 == 0) {
+						document.write(" " + z)
+					}
+				}
+			</script>
+
+		</div>
+		<h2>JS LA2 Basic Program- Part II</h2>
+		<div>
+			<p>Q1 - Display all the odd numbers from 50-100 (while loop)</p>
+			<script type="text/javascript">
+				var n = 51;
+				//var x=0;
+				while (n < 100) {
+					document.write(" " + n);
+					n += 2;
+					//can't use if statements iside while Loop	
+				}
+			</script>
+		</div>
+
+		<div>
+			<p>Q2- Write a program that displays a triangle nested loop</p>
+			<div style="text-align: left ">
+				<script type="text/javascript">
+					var i = 1;
+					var j = 1;
+					var n = 5;  //5 rows
+					for (i = 1; i <= n; i++) {
+
+						for (j = 1; j <= i; j++) {
+							document.write("*" + " ");
+						}
+						document.write("<br/>")
+					}
+
+				</script>
+			</div>
+		</div>
+		<div>
+			<p>Q3- Write a function that displays "Hello World"</p>
+			<p id="PII-Q3">
+				<script> helloWorld();</script>
+			</p>
+
+
+			<label for="text">Q4- Please Enter Your Name</label>
+			<input type="text" name="UsrName" id="UserName" placeholder="Name">
+			<button onclick="userGreet();">Display Greeting</button>
+			<p id="Name"></p>
+			<!-- <p id="test"><script> userGreet();</script></p> // only works if you don't need user input first-->
+		</div>
+	</section>
+
+	<section>
+		<h2>JS LA 3 Object, Function, and Array- Part II</h2>
+		<div>
+			<p>Q2- Display array, array length, add 2 more animals at beginning and end of array</p>
+			<p id="p0"></p>
+			<p id="p1"></p>
+			<p id="p2"></p>
+			<p id="p3"></p>
+		</div>
+		<script>
+			var animalArray = ['cat', 'ox', 'lion']
+			//document.write("This is my stating Array: " + animalArray);
+			document.getElementById('p0').innerHTML = "This is my starting Array: " + animalArray;
+			document.getElementById('p1').innerHTML = "The starting array lenght is: " + animalArray.length;
+			animalArray.push('dog', 'pig');
+			//document.write(animalArray);
+			document.getElementById('p2').innerHTML = "This is my added elements to end Array: " + animalArray;  //how do you add space between elements
+			animalArray.unshift('mouse', 'bear');
+			document.getElementById('p3').innerHTML = "This is my added elements to begining of the Array: " + animalArray;
+		</script>
+	</section>
+
+	<section>
+		<h2>JS LA 3 Object, Function, and Array- Part III</h2>
+		<div>
+			<p>Q1- Write a JS program to remove elements form the right/bottom of a given array of elements and
+				display below the button</p>
+			<ul id="colorDisplay"></ul>
+
+			<button type="submit" onclick="removeEnd();">Remove element from end</button>
+			<ul id="colorPop"></ul>
+			<script>
+				let colorArray = ['red', 'yellow', 'pink', 'green', 'purple', 'orange', 'blue'];
+
+				colorArray.forEach(function (element) {    						//for each element
+					var li = document.createElement('p');						//create a list in a div
+					colorDisplay.appendChild(li);						//display the element in id color display
+					li.innerHTML += element;							//display the list of elements									
+
+					//var popped = colorArray.pop();  //why does it pop 3 elements?
+
+
+					//document.getElementById('colorPop').innerHTML = "This is my removed color from  Array: " + colorArray;
+				});
+				function removeEnd() {
+					//var removeColor = 
+					colorArray.pop();
+					console.log(colorArray);
+					document.getElementById('colorPop').innerHTML = colorArray;
+				}
+
+		//doesn't work in extern js file why?
+
+			</script>
+		</div>
+
+		<div>
+			<p>Q2 - Write a JS function that accepts a number and checks if it is prime or not?</p>
+			<p>Prime Number- a natural number greater than 1 that is not the product of two smaller natural numbers.
+				A natural number greater than 1 that is not a prime but is a composite number.</p>
+			<label for="text">Enter Number greater than 1:</label>
+			<input type="text" id="Prime" placeholder="Number">
+			<button onclick="findPrime();">Find if Prime</button>
+			<p id="findPrime1"></p>
+		</div>
+
+		<div>
+			<p>Q3 - Write a JS function that will take an array of numbers from user and find the second lowest and
+				second greatest values</p>
+			<p>Q9 - Write a JS function that will take an array of numbers frorm user and prints its maximum element
+			</p>
+			<label for="text">Enter the new array element here:</label>
+			<input type="text" id="numArray" placeholder="Number">
+			<button onclick="addNum();">Add Number to Array</button>
+			<button onclick="find2ndLow2ndHigh();">Find second lowest/highest Number</button>
+			<button onclick="maxElement();">Find the maximum Value</button>
+
+
+			<h3>List of Numbers</h3>
+			<p id="arrayDisplay"></p>
+			<p id="lowHigh"></p>
+			<p id="max"></p>
+
+			<script>
+				let userNum = [];  //doesn't work as external JS?
+				userNum.forEach(function (element) {
+					var list = document.createElement('p');
+					arrayDisplay.appendChild(list);
+					list.innerHTML += element;
+				})
+			</script>
+		</div>
+		<div>
+			<p>Q4 - Write a JS function that will compute the value of b<sup>n</sup> where n is the exponent and b
+				is the base.</p>
+			<label for="text">Enter the base vlaue b:</label>
+			<input type="text" id="Base" placeholder="Base Number">
+			<label for="text">Enter the exponent value n:</label>
+			<input type="text" id="Power" placeholder="Power Number">
+			<button onclick="findPower();">Find b<sup>n</sup></button>
+			<p id="displayBn"></p>
+		</div>
+
+		<div>
+			<p>Q5 - Write a JS function that will return true if the string is y/yes or false if the string is n/no
+			</p>
+			<label for="text">Enter the string value:</label>
+			<input type="text" id="strg" placeholder="String Characters">
+			<button onclick="findString();">True/False</button>
+			<p id="bool"></p>
+		</div>
+
+		<div>
+			<p>Q6 - Write a JS function that will return an entered string of letters and return it in alphabetical
+				order</p>
+			<label for="text">Enter the string :</label>
+			<input type="text" id="order" placeholder="String Characters">
+			<button onclick="orderString();">Alphabetical order</button>
+			<p id="alpha"></p>
+		</div>
+
+		<div>
+			<p>Q7 - Write a JS program to get the sum and square of a given array, after mapping each element to a
+				value</p>
+			<p id="arr">Array= [2, 3, 4, 5, 6]</p>
+			<button onclick="sumOfArray();">Sum of Array</button>
+			<button onclick="sqrOfArray();">Square of Array</button>
+			<p id="sum"></p>
+			<p id="sq"></p>
+		</div>
+
+		<div>
+			<p>Q8 - Given the following Array of integers, find the integer than appears only once (Answer should be
+				4)</p>
+			<p id="arr2">Array= [2, 4, 5, 8, 5, 2, 1, 8, 1]</p>
+			<button onclick="findInteger();">Find integer- In Console Log</button>
+			<p id="int"></p>
+		</div>
+
+		<div>
+			<p>Q.10 - Write a JS function that will determine if the inputed number is odd or even</p>
+			<label for="text">Enter a number:</label>
+			<input type="text" id="num5" placeholder="Number">
+			<button onclick="calcOddEven();">Odd or Even</button>
+			<p id="answer"></p>
+		</div>
+	</section>
+</div>
+</body>
+
+</html>
