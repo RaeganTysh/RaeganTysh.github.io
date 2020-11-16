@@ -44,14 +44,14 @@
 
 
 .navbar-nav li a {
-	color: #000000 !important;
+	color: #9e9c9c !important;
 	font-size: 20px !important;
 	font-weight: 600px;
   }
  
  .navbar-nav a:hover {
   color: white !important;
-  background-color:#444444;
+  background-color: none;
  }
 
 .divmain{
