@@ -27,6 +27,14 @@
 	height: auto;
 }
 
+#Eduimg {
+    background-color:none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	margin-left: 0px;
+	
+}
+
 .texthighlights{
 	text-align: center;
 	font-size: 22px;
