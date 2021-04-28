@@ -78,7 +78,7 @@ h1 {
 
 h2 {
     font-size: 30px;
-    font-family: Brush Script MT;
+    /* font-family: Brush Script MT; */
     color: black;
     margin-top: 5px;
     line-height: 30px;
@@ -89,14 +89,14 @@ h2 {
 
 h3 {
     font-size: 30px;
-    font-family: Brush Script MT;
+    /* font-family: Brush Script MT; */
     color:  #a129ec;
     line-height: 30px;
 
 }
 
 h6 {
-    font-family: Brush Script MT;
+    /* font-family: Brush Script MT; */
     color:#4c4c4c;
     line-height: 10px;
     text-transform: uppercase;
@@ -110,7 +110,7 @@ h6 {
     border-style: solid;
     border-color: #a129ec;
     border-width: 10px;
-    font-family: Brush Script MT;
+    /* font-family: Brush Script MT; */
     font-size: 30px;
     text-align: center;
     color: black;
@@ -122,7 +122,7 @@ h6 {
     border-style: solid;
     border-color: gray;
     border-width: 6px;
-    font-family: Brush Script MT;
+    /* font-family: Brush Script MT; */
     font-size: 25px;
     text-align: center;
     color: black;
