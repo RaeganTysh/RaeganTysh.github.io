@@ -7,6 +7,7 @@
     <!-- screen compatibility-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="-UA-Compatible" content="chrome">
 
     <!-- Libraries-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -22,142 +23,170 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 
     <!-- External JS-->
-    <script type="text/javascript" src="./js/js_scripts.js"></script>
+    <!-- <script type="text/javascript" src="./js/js_scripts.js"></script> -->
 
     <!-- Internal set up of style-->
-    <style type="text/css">
+    <!-- <style type="text/css">
 
-    </style>
+    </style> -->
 
 </head>
 
 <body>
-    <div class="jumbotron">
+    <div class="jumbotron bg-dark">
         <!--Header-Banner-->
         <div class="container py-2 bg-light">
-
-            <div class="row my-2" style="background-color: rgb(10, 10, 10);">
-                <div class="col-6 ">
-                    <img src="../img/gitHub1.png" alt="Banner" class="img-fluid" />
+            <!-- <div class="container py-1  bg-dark"> -->
+            <!-- <div class="container py-1" style="background-color: black;"> -->
+            <div class="row" style="background-color: black;">
+                <div class="col-12">
+                    <div class="text-center pr-3" style="background-color: black;">
+                        <img src="../img/GithubBanner2.png" alt="Banner" class="img-fluid2" />
+                    </div>
                 </div>
-                <div class="col-6 ">
-                    <img src="../img/gitHub2c.png" alt="Banner" class="img-fluid" />
-                </div>
-
-                <!--<div class="row justify-content-between" style="text-align: center">
-                <img src="img/GithubBanner.png" alt="Banner" class="img-fluid" />
-                </div>-->
             </div>
         </div>
+
         <!--Header-NavBar-->
+        <div class="container" style="background-color: black;">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-custom" style="background-color: black;">
+                        <a class="navbar-brand" href="../index.html">MENU</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../index.html">Home</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="./html/Education.html">Education<span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" href="./Competencies.html">Competencies</a>
+                                </li> -->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Portfolio
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="index.html">Geology Portfolio</a>
+                                        <a class="dropdown-item" href="./FullStack.html">Full Stack Software
+                                            Developer
+                                            Portfolio</a>
+                                        <a class="dropdown-item" href="./DataScience.html">Data Science
+                                            Portfolio</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- <br /> -->
+        <div class="container bg-light ">
+            <br>
+            <div class="container ">
+                <div class="row justify-content-between">
+                    <div class="col-md-4 services-section">
+                        <img src="../img/ibm.png" width="200" height="160" alt="Bow Valley College Image" id="Eduimg" />
+                    </div>
+                    <div class="col-md-8 services-section">
+                        <div class="EduDesc">
+                            <p><b>IBM Online (2024)</b></p>
+                            <p class="purple2">Data Science Professional</p>
+                            <p>Certificate of Completion</p>
+                            <!-- <p>Provide me the skills to design and implement full-stack & software (front-end, back-end and
+                            database) programming languages and technologies to create websites and user interfaces.</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+            <br />
+            <div class="container ">
+                <div class="row justify-content-between">
+                    <div class="col-md-4 services-section">
+                        <img src="../img/BV.png" width="200" height="160" alt="Bow Valley College Image" id="Eduimg" />
+                    </div>
+                    <div class="col-md-8 services-section">
+                        <div class="EduDesc">
+                            <p><b>Bow Valley College (2020)</b></p>
+                            <p class="purple2">Full-Stack | Software Development</p>
+                            <p>Certificate of Completion</p>
+                            <!-- <p>Provide me the skills to design and implement full-stack & software (front-end, back-end and
+                            database) programming languages and technologies to create websites and user interfaces.</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="container content ">
+                <div class="row justify-content-between">
+                    <div class="col-md-4 services-section">
+                        <img src="../img/stanford.png" width="200" height="160" alt="Stanford University Image"
+                            id="Eduimg" />
+                    </div>
+                    <br />
+
+                    <div class="col-md-8 services-section">
+                        <div class="EduDesc">
+                            <p><b>Stanford University Online (2016)</b></p>
+                            <p class="purple2">Reservoir Geomechanics</p>
+                            <p>Certificate of Completion</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="container content ">
+                <div class="row justify-content-between">
+                    <div class="col-md-4 services-section">
+                        <img src="../img/UofC3.png" width="200" alt="Profile Image" id="Eduimg" />
+                    </div>
+
+                    <div class="col-md-8 services-section">
+                        <div class="EduDesc">
+                            <p><b>University of Calgary (2006)</b></p>
+                            <p class="purple2">Geology | Applied & Environmental Geology</p>
+                            <p>Bachelor of Science (BSc) Geology & Applied and Environmental Geology</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+        <!-- <br /> -->
 
 
         <div class="container" style="background-color: black;">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-custom" style="background-color: black;">
-                <a class="navbar-brand" href="../index.html">MENU</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="./html/Education.html">Education<span
-                                    class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./Competencies.html">Competencies</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Full-Stack Mini-projects
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="index.html">Geology E-Portfolio</a>
-                                <a class="dropdown-item" href="M4_LA1_HTML_Form.html">Basic Form</a>
-                                <a class="dropdown-item" href="M4_LA3_StudRegForm.html">Student
-                                    Registration Form</a>
-                                <a class="dropdown-item" href="M4_LA2_CashCalc.html">Cash
-                                    calculator</a>
-                                <a class="dropdown-item" href="M5_LA123_JS.html">JavaScript Basics</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-
-
-        <br />
-        <div class="container ">
-            <div class="row justify-content-between">
-                <div class="col-md-4 services-section">
-                    <img src="../img/BV.png" width="200" height="160" alt="Bow Valley College Image" id="Eduimg" />
-                </div>
-
-                <div class="col-md-8 services-section">
-                    <div class="EduDesc">
-                        <h2>Bow Valley College (2020)</h2>
-                        <h3>Full-Stack | Software Development</h3>
-                        <h6>Certificate of Completion</h6>
-                        <p>Provide me the skills to design and implement full-stack & software (front-end, back-end and
-                            database) programming languages and technologies to create websites and user interfaces.</p>
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center">
+                        <!-- <div class="container" style="background-color: black;"> -->
+                        <footer>
+                            <p
+                                style="font-variant: small-caps;color: white; font-weight:900; font-size: 20px; text-align: right;">
+                                Contact &nbsp;&nbsp;&nbsp; <a href="https://www.linkedin.com/in/raegantysh/"
+                                    class="fa fa-linkedin "></a>
+                                <a href="https://github.com/RaeganTysh" class="fa fa-github "></a>
+                                <a href="mailto: raegan.tysh@gmail.com" class="fa fa-envelope "></a>
+                            </p>
+                        </footer>
                     </div>
                 </div>
             </div>
-        </div>
-      
-        <div class="container content ">
-            <div class="row justify-content-between">
-                <div class="col-md-4 services-section">
-                    <img src="../img/stanford.png" width="200" height="160" alt="Stanford University Image"
-                        id="Eduimg" />
-                </div>
-
-                <div class="col-md-8 services-section">
-                    <div class="EduDesc">
-                        <h2>Stanford University Online (2016)</h2>
-                        <h3>Reservoir Geomechanics</h3>
-                        <h6>Certificate of Completion</h6>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br />
-        <div class="container content ">
-            <div class="row justify-content-between">
-                <div class="col-md-4 services-section">
-                    <img src="../img/UofC3.png" width="200" alt="Profile Image" id="Eduimg" />
-                </div>
-
-                <div class="col-md-8 services-section">
-                    <div class="EduDesc">
-                        <h2>University of Calgary (2002-2006)</h2>
-                        <h3>Geology | Applied & Environmental Geology</h3>
-                        <h6>BSc Geology & Applied and Environmental Geology</h6>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br />
-
-
-        <div class="container" style="background-color: black;">
-            <footer>
-                <p style="font-variant: small-caps;color: white; font-weight:900; font-size: 20px; text-align: right;">
-                    Contact &nbsp;&nbsp;&nbsp; <a href="https://www.linkedin.com/in/raegantyshkewichpgeol/"
-                        class="fa fa-linkedin "></a>
-                    <a href="https://github.com/RaeganTysh" class="fa fa-github "></a>
-                    <a href="mailto: raegan.tysh@gmail.com" class="fa fa-envelope "></a></p>
-            </footer>
-        </div>
-
+        </div>        
     </div>
 </body>
 

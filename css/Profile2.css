@@ -22,6 +22,27 @@
 	padding-bottom: 19px;
 	
 }
+.EduDesc {
+    background-color: none; 
+    margin-top: 25px;
+    margin-bottom: 0px;
+    line-height: 15px;
+    
+    
+    /*margin-left: 80px;
+    margin-right: 0px;*/
+
+}
+.purple2 {
+    font-size: 20px;
+    font-family: Brush Script MT;
+    color: rgb(106, 90, 205);
+    line-height: 15px;
+    font-weight: 900;
+    /* text-align: left; */
+    /* margin-left: 30px; */
+
+}
 .img{
 	widows: 100%;
 	height: auto;
@@ -51,7 +72,11 @@
 	text-align: center;
 	font-size:30px;
 	line-height: 30px;
+<<<<<<< HEAD
 	font-weight: 700;
+=======
+	font-weight: 900;
+>>>>>>> de12570 (website changes)
 	font-variant: small-caps;
 
 }
